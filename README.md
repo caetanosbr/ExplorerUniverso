@@ -10,11 +10,12 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- Conceitos de SPA;
+- Conceitos de SPA (Single Page Application).
 - Mapeamento de rotas;
 - Assíncrono e promises;
 - Orientação a objetos;
-- Classes e muito mais.
+- Conceitos de POO (Programação Orientada a Objetos)
+- Trabalhando com Eventos para interatividade e dinamismo.
 
 ## 💻 Projeto
 
