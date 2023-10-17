@@ -27,6 +27,3 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 Esse projeto está sob a licença MIT.
 
 ---
-
-Deploy:
-[Clicque aqui para acessar o Projeto!](https://caetanosbr.github.io/ExplorerUniverso/)
