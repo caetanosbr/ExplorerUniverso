@@ -29,4 +29,4 @@ Esse projeto está sob a licença MIT.
 ---
 
 Deploy:
-[Clicque aqui para acessar o Projeto!](https://caetanosbr.github.io/galaxies/)
+[Clicque aqui para acessar o Projeto!](https://caetanosbr.github.io/ExplorerUniverso/)
