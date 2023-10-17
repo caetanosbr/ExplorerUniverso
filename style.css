@@ -1,0 +1,134 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root{
+    font-size: 62.5%;
+
+    --color-base-100:#ffffff;
+    --color-base-200:hsl(204, 59%, 84%);
+    --color-base-300: #000000;
+}
+
+.home {
+    background-image:  url("assets/mountains-universe-1.png");
+}
+
+.exploracao {
+    background-image: url("assets/mountains-universe-3.png");
+}
+
+.universo {
+    background-image: url("assets/mountains-universe02.png");
+}
+
+
+body {
+    font-family:'Roboto', sans-serif;
+    color: var(--color-base-100);
+    width: 100vw;
+    height: 79vh;
+
+    position: relative;
+    background-size: 100%;
+    background-position:center ;
+    background-repeat: no-repeat;
+}
+
+nav {
+    font-size: 2.16rem;
+    line-height: 2.2rem;
+
+    margin: 5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    gap: 32px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--color-base-100);
+    cursor: pointer;
+}
+
+nav a:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+    color: var(--color-base-200);
+}
+
+#contents-home {
+    margin: 22.2rem 44rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.1rem;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: clamp(2.4rem, 10vh + 2.4rem, 4.8rem);
+    line-height: 125%;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color:  var(--color-base-100);
+
+    width: 648px;
+    height: 203px;
+}
+
+#contents {
+    margin-top: 11.6rem;
+    margin-left: 10.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+button{
+    width: 19.5rem;
+    height: 4.8rem;
+    color: var(--color-base-100);
+
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: transparent;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+    transition: transform 3ms;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--color-base-100);
+    transform:scale(1.1);
+}
+
+button a {
+    text-decoration: none;
+    color: var(--color-base-100);
+}
+
+button a:hover {
+    color: var(--color-base-200);
+}
